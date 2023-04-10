@@ -7,6 +7,31 @@
   pointer-events: none;
 }
 
+.content {
+  display: flex;
+
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 40px;
+  
+}
+
+.posts {
+  display: flex;
+  padding: 20px;
+  justify-content: flex-start;
+}
+
+.favorites {
+  width: 150px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
